@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF2FF;
+}
+.container {
+    width: 736px;
+    height: 512px;
+    background-color: white;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bluebox {
+    width: 368px;
+    height: 512px;
+    background-image: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+.text1 {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Hanken Grotesk";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72px;
+}
+.text2 {
+    color: #CAC9FF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Hanken Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.headline1 {
+    color:#CAC9FF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.headline2 {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Ptext {
+    color:  #CAC9FF;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-top: 14px;
+}
+.reaction {
+    padding-inline: 16px;
+    width: 288px;
+    height: 56px;
+    background-color: #fbe5e5;
+    margin-top: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.memory {
+    width: 288px;
+    height: 56px;
+    background-color: #fbffd3;
+    margin-top: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    padding-inline: 16px;
+    justify-content: space-between;
+}
+.verbal {
+    width: 288px;
+    height: 56px;
+    background-color: #e1ffe0;
+    margin-top: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    padding-inline: 16px;
+    justify-content: space-between;
+}
+.visual {
+    width: 288px;
+    height: 56px;
+    background-color: #e9e5fb;
+    margin-top: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    padding-inline: 16px;
+    justify-content: space-between;
+}
+.list {
+margin-left: 40px;
+align-items: center;
+}
+.inner1 {
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inner2 {
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inner3 {
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inner4 {
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.number1 {
+color:  #303B59;
+text-align: right;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: 700;
+display: flex;
+align-items: center;
+padding-left: 100px;
+}
+.summery {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.button {
+    margin-top: 30px;
+    background-color: #303B59;
+    color: wheat;
+    width: 288px;
+    height: 56px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secondary {
+    color: gray;
+}
